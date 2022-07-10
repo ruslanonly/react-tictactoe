@@ -1,0 +1,24 @@
+.game {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.game-status {
+  font-size: 1.5rem;
+  color: #2f4550;
+}
+
+.restart-btn {
+  font-size: 1.5rem;
+  color: #2f4550;
+  background-color: #b8dbd9;
+  border: none;
+  border-radius: .3rem;
+  padding: 1rem;
+}
+
+.restart-btn:hover {
+  cursor: pointer;
+}
