@@ -12,3 +12,7 @@
   cursor: pointer;
   background-color: #b8dbd9;
 }
+
+.cell:active {
+  background-color: #9bbebc;
+}

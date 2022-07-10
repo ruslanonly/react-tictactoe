@@ -6,16 +6,11 @@ type CellProps = {
   onClick: () => void
 }
 
-type CellState = {
-
+export default function Cell(props: CellProps) : JSX.Element {
+  return (
+    <button className='cell' onClick={props.onClick}>
+      {props.value}
+    </button>
+  )
 }
 
-export default class Cell extends React.Component<CellProps, CellState> {
-  render() {
-    return (
-      <button className='cell' onClick={this.props.onClick}>
-        {this.props.value}
-      </button>
-    )
-  }
-}
