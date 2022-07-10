@@ -1,0 +1,14 @@
+.cell {
+  border: solid .1rem #b8dbd9;
+  font-size: 3rem;
+  width: 5rem;
+  height: 5rem;
+  color: #2f4550;
+  background-color: #f4f4f9;
+  transition: all .1s ease;
+}
+
+.cell:hover {
+  cursor: pointer;
+  background-color: #b8dbd9;
+}
